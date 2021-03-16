@@ -169,7 +169,17 @@
   }
 
   @include breakpoint($mobile-bp){
-    top: 25rem;
-  right: 7rem;
+    flex-direction: row;
+    top: 12rem;
+    left: 3rem;
+    width: 100%;
+    
+    color: $dark;
+    .adv1, .adv2 {
+      border: 1px solid rgba($dark, 0.1);
+      margin-right: 2rem;
+      margin-top: 2rem;
+    }
   }
+  
 }
