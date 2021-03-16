@@ -374,10 +374,6 @@ body {
     color: #2f2f2f;
 }
 
-body.show-sidebar {
-    overflow: hidden;
-}
-
 .page {
     display: -ms-flexbox;
     display: flex;
