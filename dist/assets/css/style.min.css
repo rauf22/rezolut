@@ -354,6 +354,9 @@ body {
   width: 100vW;
   display: block;
   object-fit: cover; }
+  @media (max-width: 667px) {
+    .block1 .houses {
+      height: 550px; } }
 
 .socials {
   display: flex;
@@ -455,22 +458,11 @@ body {
         line-height: 3rem; }
       .adv .adv1 p, .adv .adv2 p {
         font-size: 1.2rem; } }
-  @media (max-width: 620px) {
-    .adv .adv1, .adv .adv2 {
-      width: 11.5rem;
-      height: 16rem; }
-      .adv .adv1 h3, .adv .adv2 h3 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        padding-left: 1rem; }
-      .adv .adv1 p, .adv .adv2 p {
-        font-size: 1rem;
-        padding-left: 1rem; } }
-  @media (max-width: 575px) {
+  @media (max-width: 667px) {
     .adv {
       flex-direction: row;
       top: 12rem;
-      left: 3rem;
+      left: 1rem;
       width: 100%;
       color: #2F2F2F; }
       .adv .adv1, .adv .adv2 {

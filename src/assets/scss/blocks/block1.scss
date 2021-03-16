@@ -7,6 +7,10 @@
   width: 100vW;
   display: block;
   object-fit: cover;
+
+  @include breakpoint($t667-bp){
+  height: 550px;
+  }
 }
 
 .socials {
@@ -113,7 +117,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-   
     border: 1px solid rgba($white, 0.1);
     border-radius: 16px;
 
@@ -152,26 +155,26 @@
     }
   }
 
-  @include breakpoint($t620-bp){
-    .adv1, .adv2 {
-      width: 11.5rem;
-    height: 16rem;
-      h3 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        padding-left: 1rem;
-      }
-      p {
-        font-size: 1rem;
-        padding-left: 1rem;
-      }
-    }
-  }
+  // @include breakpoint($t667-bp){
+  //   .adv1, .adv2 {
+  //     width: 11.5rem;
+  //   height: 16rem;
+  //     h3 {
+  //       font-size: 1.5rem;
+  //       line-height: 2rem;
+  //       padding-left: 1rem;
+  //     }
+  //     p {
+  //       font-size: 1rem;
+  //       padding-left: 1rem;
+  //     }
+  //   }
+  // }
 
-  @include breakpoint($mobile-bp){
+  @include breakpoint($t667-bp){
     flex-direction: row;
     top: 12rem;
-    left: 3rem;
+    left: 1rem;
     width: 100%;
     
     color: $dark;
@@ -180,6 +183,7 @@
       margin-right: 2rem;
       margin-top: 2rem;
     }
+
   }
   
 }
